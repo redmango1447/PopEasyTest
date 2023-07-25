@@ -9,11 +9,6 @@ struct Charger: Chargeabel {
     var maximumWattPerHour: WattPerHour
     
     func convert(chargeableWattPerHour: WattPerHour) -> WattPerHour {
-        
-        if maximumWattPerHour > chargeableWattPerHour {
-            return chargeableWattPerHour
-        }
-        
-        return maximumWattPerHour
+        <#code#>
     }
 }
