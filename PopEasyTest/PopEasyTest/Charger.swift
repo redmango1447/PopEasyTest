@@ -5,9 +5,11 @@
 //  Created by redmango1446 on 2023/07/24.
 //
 
-struct Charger: Chargeabel {
+struct Charger: Chargeabel, Portable{
     var maximumWattPerHour: WattPerHour
-    
+}
+
+extension Chargeabel {
     func convert(chargeableWattPerHour: WattPerHour) -> WattPerHour {
         
         if maximumWattPerHour > chargeableWattPerHour {

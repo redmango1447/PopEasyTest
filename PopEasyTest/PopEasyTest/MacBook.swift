@@ -5,7 +5,7 @@
 //  Created by redmango1446 on 2023/07/24.
 //
 
-struct MacBook {
+struct MacBook: Portable {
     private let 기기허용충전와트시: Watt = 20
     private let 현재저장된배터리용량 : Watt = 20
     private let 최대배터리용량: Watt = 100
